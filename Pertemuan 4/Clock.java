@@ -3,11 +3,10 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.border.*;
 /**
- * Write a description of class Clock here.
  *
- * @author Isabella Sienna Sulisthio
- * @version Selasa, 16 September 2025
-*/
+ * @author Farrel Aqilla Novianto
+ */
+
 public class Clock
 {
     private JFrame frame;
