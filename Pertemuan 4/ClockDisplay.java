@@ -1,9 +1,6 @@
-
 /**
- * Write a description of class ClockDisplay here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Farrel Aqilla Novianto
  */
 public class ClockDisplay
 {
