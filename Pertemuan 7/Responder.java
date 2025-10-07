@@ -23,10 +23,10 @@ public class Responder{
     public String generateResponse(String input){
         String lower = input.toLowerCase();
         for(String keyword : responses.keySet()){
-            if (lower.contains(keyword)){
+            if(lower.contains(keyword)){
                 return responses.get(keyword);
             }
         }
-        return "Terima kasih telah menghubungi sistem bantuan FRS. Mohon jelaskan permasalahan Anda dengan lebih detail agar kami dapat membantu dengan tepat.";
+        return "Terima kasih telah menghubungi sistem bantuan FRS. Mohon jelaskan permasalahan Anda dengan lebih detail agar kami dapat membantu dengan tepat";
     }
 }
