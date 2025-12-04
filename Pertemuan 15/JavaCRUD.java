@@ -1,3 +1,6 @@
+/**
+ * @author Farrel Aqilla Novianto
+ */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.sql.DriverManager;
@@ -5,7 +8,7 @@ import java.sql.Connection;
 import java.sql.Statement;
 import java.sql.ResultSet;
 
-public class JavaCRUD {
+public class JavaCRUD{
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://localhost:3306/perpustakaan_pbo";
     static final String USER = "root";
